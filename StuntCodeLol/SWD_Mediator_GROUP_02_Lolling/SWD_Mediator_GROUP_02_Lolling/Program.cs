@@ -10,19 +10,21 @@ namespace SWD_Mediator_GROUP_02_Lolling
     {
         static void Main(string[] args)
         {
-            Mediator m = new ConcreteMediator();
+            IMediator m = new PhoneCentral();
 
-            Private medic1 = new Medic("Medic 1",false,m);
-            Private medic2 = new Medic("Medic 2",false,m);
-            Private gunner1 = new Gunner("Gunner 1",true, m);
+            Phone one = new RegularPhone(2020, m);
+            Phone two = new RegularPhone(4040, m);
+            Phone three = new SmartPhone(6060, m);
 
-            m.privates.Add(medic1);
-            m.privates.Add(medic2);
-            m.privates.Add(gunner1);
+            one.TextAll("I am very old ...");
 
-            medic1.Yell("I'm Here to help");
-            medic2.Yell("So am I!");
-            gunner1.Yell("I am gunner!");
+            three.Text(2020, "I am new.");
+
+            one.Call(6060);
+            one.Call(6060);
+            one.Call(6060);
+
+            one.Text(6060,"Pick up I kill U!");
 
             Console.ReadLine();
         }
