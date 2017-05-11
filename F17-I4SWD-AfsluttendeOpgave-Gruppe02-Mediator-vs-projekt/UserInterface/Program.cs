@@ -19,10 +19,10 @@ namespace UserInterface
 
             one.Text(4040, "I am a regular phone .. ");
 
-            two.TextAll("Hi everybody!");
+            //two.TextAll("Hi everybody!");
 
-            three.Call(4040);
-            three.Text(4040, "I tried to call you, please call back!");
+            //three.Call(4040);
+            //three.Text(4040, "I tried to call you, please call back!");
 
             Console.ReadLine();
         }

@@ -47,5 +47,8 @@
     <Compile Include="RegularPhone.cs" />
     <Compile Include="SmartPhone.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
