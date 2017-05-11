@@ -51,9 +51,9 @@ namespace SWD_Mediator_GROUP_02
         }
 
         // Registering
-        public void Register(Phone registeringSmartphone)
+        public void Register(Phone registeringPhone)
         {
-            registeredPhones.Add(registeringSmartphone);
+            registeredPhones.Add(registeringPhone);
         }
 
 

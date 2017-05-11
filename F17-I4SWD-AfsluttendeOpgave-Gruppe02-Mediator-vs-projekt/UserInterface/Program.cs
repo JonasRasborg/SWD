@@ -17,15 +17,12 @@ namespace UserInterface
             Phone two = new RegularPhone(4040, m);
             Phone three = new SmartPhone(6060, m);
 
-            one.TextAll("I am very old ...");
+            one.Text(4040, "I am a regular phone .. ");
 
-            three.Text(2020, "I am new.");
+            two.TextAll("Hi everybody!");
 
-            one.Call(6060);
-            one.Call(6060);
-            one.Call(6060);
-
-            one.Text(6060, "I tried to call you, please call back!");
+            three.Call(4040);
+            three.Text(4040, "I tried to call you, please call back!");
 
             Console.ReadLine();
         }
