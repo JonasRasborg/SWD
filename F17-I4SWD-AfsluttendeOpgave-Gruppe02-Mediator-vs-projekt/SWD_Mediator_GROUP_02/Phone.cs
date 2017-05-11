@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SWD_Mediator_GROUP_02_Lolling
+namespace SWD_Mediator_GROUP_02
 {
     public abstract class Phone
     {

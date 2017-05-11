@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace SWD_Mediator_GROUP_02
 {
-    interface IMediator
+    public interface IMediator
     {
-        List<IColleague> ColleagueList { get; set; }
-        void DistributeMessage(string message, IColleague colleague);
-        void Register(IColleague colleague);
+        void Text(string message, int recievingNumber, int sendingNumber);
+        void TextAll(string message, int sendingnumber);
+        void Call(int recievingNumber, int callingNumber);
+        void Register(Phone smartphone);
+
     }
 }

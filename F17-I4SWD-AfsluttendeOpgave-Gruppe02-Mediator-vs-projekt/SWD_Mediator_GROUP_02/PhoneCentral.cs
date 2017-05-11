@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SWD_Mediator_GROUP_02_Lolling
+namespace SWD_Mediator_GROUP_02
 {
-    class PhoneCentral : IMediator
+    public class PhoneCentral : IMediator
     {
         private readonly List<Phone> registeredPhones;
 
@@ -17,15 +17,15 @@ namespace SWD_Mediator_GROUP_02_Lolling
 
         // Communications
 
-        public void Call(int recievingNumber,int callingNumber)
+        public void Call(int recievingNumber, int callingNumber)
         {
             foreach (var s in registeredPhones)
             {
                 if (s.myPhoneNumber == recievingNumber)
                 {
-                    s.RecieveCall(callingNumber);     
+                    s.RecieveCall(callingNumber);
                 }
-            } 
+            }
         }
 
         public void Text(string message, int recievingNumber, int sendingNumber)
@@ -43,19 +43,19 @@ namespace SWD_Mediator_GROUP_02_Lolling
         {
             foreach (var s in registeredPhones)
             {
-                if (s.myPhoneNumber!=sendingnumber)
+                if (s.myPhoneNumber != sendingnumber)
                 {
                     s.RecieveText(sendingnumber, message);
                 }
             }
         }
-      
+
         // Registering
         public void Register(Phone registeringSmartphone)
         {
             registeredPhones.Add(registeringSmartphone);
         }
 
-       
+
     }
 }

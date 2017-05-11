@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWD_Mediator_GROUP_02", "SWD_Mediator_GROUP_02\SWD_Mediator_GROUP_02.csproj", "{2BBF5633-9530-4F90-8B1F-CDAEC20781DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{D976155D-33EE-44A0-A6D0-831E8E0DED8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2BBF5633-9530-4F90-8B1F-CDAEC20781DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BBF5633-9530-4F90-8B1F-CDAEC20781DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BBF5633-9530-4F90-8B1F-CDAEC20781DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D976155D-33EE-44A0-A6D0-831E8E0DED8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D976155D-33EE-44A0-A6D0-831E8E0DED8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D976155D-33EE-44A0-A6D0-831E8E0DED8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D976155D-33EE-44A0-A6D0-831E8E0DED8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SWD_Mediator_GROUP_02_Lolling")]
+[assembly: AssemblyTitle("UserInterface")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SWD_Mediator_GROUP_02_Lolling")]
+[assembly: AssemblyProduct("UserInterface")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fd59c772-baeb-4030-9282-5b1b32bf0e09")]
+[assembly: Guid("d976155d-33ee-44a0-a6d0-831e8e0ded8b")]
 
 // Version information for an assembly consists of the following four values:
 //
