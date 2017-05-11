@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD59C772-BAEB-4030-9282-5B1B32BF0E09}</ProjectGuid>
+    <ProjectGuid>{D976155D-33EE-44A0-A6D0-831E8E0DED8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SWD_Mediator_GROUP_02_Lolling</RootNamespace>
-    <AssemblyName>SWD_Mediator_GROUP_02_Lolling</AssemblyName>
+    <RootNamespace>UserInterface</RootNamespace>
+    <AssemblyName>UserInterface</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,16 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMediator.cs" />
-    <Compile Include="PhoneCentral.cs" />
-    <Compile Include="Phone.cs" />
-    <Compile Include="SmartPhone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegularPhone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SWD_Mediator_GROUP_02\SWD_Mediator_GROUP_02.csproj">
+      <Project>{2bbf5633-9530-4f90-8b1f-cdaec20781da}</Project>
+      <Name>SWD_Mediator_GROUP_02</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

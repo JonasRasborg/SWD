@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SWD_Mediator_GROUP_02;
 
-namespace SWD_Mediator_GROUP_02_Lolling
+namespace UserInterface
 {
     class Program
     {
@@ -24,7 +25,7 @@ namespace SWD_Mediator_GROUP_02_Lolling
             one.Call(6060);
             one.Call(6060);
 
-            one.Text(6060,"Pick up I kill U!");
+            one.Text(6060, "I tried to call you, please call back!");
 
             Console.ReadLine();
         }
